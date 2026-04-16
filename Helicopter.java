@@ -4,7 +4,7 @@ public class Helicopter extends Aircraft
 	public Helicopter(long p_id, String p_name, Coordinates p_coordinates)
 	{
 		super(p_id, p_name, p_coordinates);
-//		this.weatherTower.register(this);
+		// this.registerTower(this);
 	}
 	
 	public void updateConditions()
@@ -41,14 +41,13 @@ public class Helicopter extends Aircraft
 	    	   else
 	    	   {
 	    		   this.coordinates.setHeight(0);
+	    		   this.weatherTower.unregister(this);
 	    		   System.out.println("Je suis au sol ! Au revoir ...");
 	    	   }
 	    	   break;
 	       default:
 	           System.out.println("Choix incorrect");
 	           break;
-	   }
-		
+	   }	
 	}
-	
 }

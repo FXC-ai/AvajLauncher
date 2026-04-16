@@ -1,4 +1,5 @@
-
+import java.util.ArrayList;
+import java.util.List;
 
 
 public class Main
@@ -14,9 +15,11 @@ public class Main
 //		for (int nb : test)
 //		{
 //			System.out.println(nb);
-//			if (nb == 3)
+//			
+//			int index = test.indexOf(nb);
+//			if (index == 1)
 //			{
-//				test.remove(test.indexOf(nb));
+//				test.remove(index);
 //			}
 //		}
 

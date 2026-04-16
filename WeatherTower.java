@@ -3,11 +3,13 @@ import java.util.List;
 
 public class WeatherTower
 {
-	List<Flyable> observers;
+	private List<Flyable> observers;
+	private List<Flyable> flyableToDelete;
 	
 	public WeatherTower()
 	{
 		this.observers = new ArrayList<Flyable>();
+		this.flyableToDelete = new ArrayList<Flyable>();
 		System.out.println("WeatherTower instancied");
 	}
 		
@@ -18,9 +20,7 @@ public class WeatherTower
 	
 	public void unregister(Flyable p_flyable)
 	{
-		int index = observers.indexOf(p_flyable);
-		observers.remove(index);
-
+		this.flyableToDelete.add(p_flyable);
 	}
 	
 	public void conditionChanged()
@@ -30,6 +30,9 @@ public class WeatherTower
 			flyable.updateConditions();
 			System.out.println("Recherche");
 		}
+		this.observers.removeAll(this.flyableToDelete);
+		this.flyableToDelete.clear();
+//		System.out.println(this.observers.size() + " " + this.flyableToDelete.size());
 	}
 
 	public String getWeather (Coordinates coordinates)
