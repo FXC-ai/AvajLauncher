@@ -18,7 +18,7 @@ public final class WeatherProvider
 	public String getCurrentWeather(Coordinates p_coordinates)
 	{
 		DateTimeFormatter secs = DateTimeFormatter.ofPattern("ss");
-		System.out.println(Integer.parseInt(LocalDateTime.now().format(secs)));
+//		System.out.println(Integer.parseInt(LocalDateTime.now().format(secs)));
 		return weather
 		[
 			(

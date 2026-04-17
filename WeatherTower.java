@@ -10,7 +10,7 @@ public class WeatherTower
 	{
 		this.observers = new ArrayList<Flyable>();
 		this.flyableToDelete = new ArrayList<Flyable>();
-		System.out.println("WeatherTower instancied");
+		
 	}
 		
 	public void register(Flyable p_flyable)
@@ -28,11 +28,10 @@ public class WeatherTower
 		for (Flyable flyable : observers)
 		{
 			flyable.updateConditions();
-			System.out.println("Recherche");
 		}
 		this.observers.removeAll(this.flyableToDelete);
 		this.flyableToDelete.clear();
-//		System.out.println(this.observers.size() + " " + this.flyableToDelete.size());
+		// System.out.println(this.observers.size() + " " + this.flyableToDelete.size());
 	}
 
 	public String getWeather (Coordinates coordinates)

@@ -1,45 +1,58 @@
 import java.util.ArrayList;
-import java.util.List;
+
 
 
 public class Main
 {
+	public static ArrayList<Flyable> aircraftInitilizer (ArrayList<AircraftParameters> listAircraftParameters)
+	{
+		ArrayList<Flyable> listFlyables = new ArrayList<Flyable>();
+		
+		final AircraftFactory aircraftFactory = AircraftFactory.getAircraftFactory();
+		for (AircraftParameters parameters : listAircraftParameters)
+		{
+			try
+			{
+				final Flyable currentAircraft = aircraftFactory.newAircraft(parameters.getType(), parameters.getName(), parameters.getCoord());
+				listFlyables.add(currentAircraft);
+			}
+			catch (Exception e)
+			{
+				System.out.println("Erreur instanciation d'un aircraft.");
+			}
+		}
+		return listFlyables;
+	}
+	
 	public static void main(String[] args)
 	{
 		
-//		List<Integer> test = new ArrayList<>();
-//		test.add(1);
-//		test.add(3);
-//		test.add(5);
-//		
-//		for (int nb : test)
-//		{
-//			System.out.println(nb);
-//			
-//			int index = test.indexOf(nb);
-//			if (index == 1)
-//			{
-//				test.remove(index);
-//			}
-//		}
-
+		ArrayList<AircraftParameters> listAircraftParameters = new ArrayList<AircraftParameters>();
 		
-		Helicopter heli = new Helicopter(1,"heli", new Coordinates(1,2,3));
-		Helicopter heli1 = new Helicopter(1,"heli", new Coordinates(1,2,3));
+	
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Leo", new Coordinates(10,10,10)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Fan", new Coordinates(100,2,100)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Chr", new Coordinates(150,9,30)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Emm", new Coordinates(14,21,3)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Mon", new Coordinates(100,42,100)));
+	
+		ArrayList<Flyable> listFlyables = Main.aircraftInitilizer(listAircraftParameters);
 		WeatherTower TourMeteo = new WeatherTower();
-		TourMeteo.register(heli);
-		TourMeteo.register(heli1);
-		heli.registerTower(TourMeteo);
-		heli1.registerTower(TourMeteo);
-		TourMeteo.conditionChanged();
-		if (heli.coordinates.getHeight() == 0)
+		
+		for (Flyable flyable : listFlyables)
 		{
-			TourMeteo.unregister(heli);
-		}
-		if (heli1.coordinates.getHeight() == 0)
+			TourMeteo.register(flyable);
+			flyable.registerTower(TourMeteo);
+		}		
+		
+		int i = 10;
+		while (i > 0)
 		{
-			TourMeteo.unregister(heli1);
+			System.out.println("Tour " + i + " :");
+			TourMeteo.conditionChanged();
+			i--;
 		}
+
 	}
     
 }

@@ -36,12 +36,17 @@ public class Coordinates
 
 	public void setLatitude(int new_latitude)
 	{
-		this.longitude = new_latitude;
+		this.latitude = new_latitude;
 	}	
 	
 	public void setHeight(int new_height)
 	{
-		this.longitude = new_height;
+		this.height = new_height;
 	}
+	
+    @Override
+    public String toString() {
+        return "{" + this.latitude + "," + this.longitude + "," + this.height + "}";
+    }
 	
 }
