@@ -1,6 +1,6 @@
+import java.io.FileWriter;
+import java.io.IOException;
 import java.util.ArrayList;
-
-
 
 public class Main
 {
@@ -26,10 +26,8 @@ public class Main
 	
 	public static void main(String[] args)
 	{
-		
 		ArrayList<AircraftParameters> listAircraftParameters = new ArrayList<AircraftParameters>();
 		
-	
 		listAircraftParameters.add(new AircraftParameters("Helicopter", "Leo", new Coordinates(10,10,10)));
 		listAircraftParameters.add(new AircraftParameters("Helicopter", "Fan", new Coordinates(100,2,100)));
 		listAircraftParameters.add(new AircraftParameters("Helicopter", "Chr", new Coordinates(150,9,30)));
@@ -38,6 +36,16 @@ public class Main
 	
 		ArrayList<Flyable> listFlyables = Main.aircraftInitilizer(listAircraftParameters);
 		WeatherTower TourMeteo = new WeatherTower();
+		
+        try {
+
+            FileWriter fw = new FileWriter("output.txt", false);
+            fw.write("");
+            fw.close();
+            System.out.println("Contenu supprimé.");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
 		
 		for (Flyable flyable : listFlyables)
 		{
@@ -49,7 +57,14 @@ public class Main
 		while (i > 0)
 		{
 			System.out.println("Tour " + i + " :");
-			TourMeteo.conditionChanged();
+			try
+			{
+				TourMeteo.changeWeather();				
+			}
+			catch (Exception e)
+			{
+				System.out.println("Erreur de la simulation.");
+			}
 			i--;
 		}
 

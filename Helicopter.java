@@ -1,3 +1,9 @@
+import java.io.FileWriter;
+import java.io.IOException;
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+
 public class Helicopter extends Aircraft
 {
 	
@@ -5,71 +11,67 @@ public class Helicopter extends Aircraft
 	{
 		super(p_id, p_name, p_coordinates);
 	}
-	
-	public void updateConditions()
+
+
+	public void printMsg(String message) throws IOException
 	{
-		String weather = this.weatherTower.getWeather(this.coordinates);
+		String fullMsg = this.toString() + ": " + message + " " + this.coordinates.toString();
+		
+		
+	    FileWriter fw = new FileWriter("output.txt", true);
+	    BufferedWriter bw = new BufferedWriter(fw);
+	    bw.write(fullMsg);
+	    bw.newLine();
+	    bw.close();
+	}	
+
+	
+	@Override
+	public void updateConditions() throws Exception
+	{
+
+		final String weather = this.weatherTower.getWeather(this.coordinates);
+		//final String weather = "HELLO";
 		final int currentLongitude = this.coordinates.getLongitude();
 		final int currentHeight = this.coordinates.getHeight();
+		
+
 		
 		switch(weather)
 		{
 		    case "SUN":
-		        System.out.print(this.toString() + ": ");
-		        System.out.print("SUN " + this.coordinates.toString() + " => ");
 		        this.coordinates.setLongitude(currentLongitude + 10);
 		        this.coordinates.setHeight(currentHeight + 2);
 		        if (this.coordinates.getHeight() > 100) {this.coordinates.setHeight(100);}
-		        System.out.print(this.coordinates.toString());
-		        System.out.println(" Regarde comme il fait beau, faut sortir s'amuser !");
+		        this.printMsg("Regarde comme il fait beau, faut sortir s'amuser !");
 		        break;
 
 		    case "FOG":
-		        System.out.print(this.toString() + ": ");
-		        System.out.print("FOG " + this.coordinates.toString() + " => ");
 		        this.coordinates.setLongitude(currentLongitude + 1);
-		        System.out.print(this.coordinates.toString());
-		        System.out.println(" On n'y voit rien avec tout ce brouillard !");
+		        this.printMsg("Ce brouillard est infernal ! Je pourrais le couper au couteau !");
 		        break;
 
 		    case "RAIN":
-		        System.out.print(this.toString() + ": ");
-		        System.out.print("RAIN " + this.coordinates.toString() + " => ");
 		        this.coordinates.setLongitude(currentLongitude + 5);
-		        System.out.print(this.coordinates.toString());
-		        System.out.println(" Sortez les parapluies, ça mouille !");
+		        this.printMsg("It's raining again ! On va être super trempé ;)");
 		        break;
 
 		    case "SNOW":
-		        System.out.print(this.toString() + ": ");
-		        System.out.print("SNOW " + this.coordinates.toString() + " => ");
-		        if (currentHeight >= 12)
-		        {
-		            this.coordinates.setHeight(currentHeight - 12);
-		        }
-		        else
-		        {
-		            this.coordinates.setHeight(0);
-		            this.weatherTower.unregister(this);
-		        }
-		        System.out.print(this.coordinates.toString());
-		        if (this.coordinates.getHeight() == 0)
-		        {
-		        	System.out.println(" Je suis au sol. Continuez sans moi ! A bientôt ! ");
-		        }
-		        else
-		        {
-		        	System.out.println(" Il neige, c'est bien pour skier mais pas pour voler !");
-		        };
+		    	int newHeight = (currentHeight > 12) ? currentHeight - 12 : 0;
+		    	this.coordinates.setHeight(newHeight);
+		        this.printMsg("La neige en vol c'est pas terrible ! C'est mieux pour le ski...");
 		        break;
 
 		    default:
-		        System.out.println("Choix incorrect");
-		        break;
+		    	throw new Exception();
+
+		}
+		if (this.coordinates.getHeight() == 0)
+		{
+			this.printMsg("Je suis au sol.");
+			this.weatherTower.unregister(this);
 		}
 	}
-	
-	// Balloon#B1(1): Let's enjoy the good weather and take some pics.
 	
     @Override
     public String toString() {

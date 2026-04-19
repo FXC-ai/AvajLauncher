@@ -1,0 +1,52 @@
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,20,12}
+Helicopter#Fan(2): Regarde comme il fait beau, faut sortir s'amuser ! {2,110,100}
+Helicopter#Chr(3): It's raining again ! On va être super trempé ;) {9,155,30}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,24,5}
+Helicopter#Mon(5): Regarde comme il fait beau, faut sortir s'amuser ! {42,110,100}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,30,14}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,88}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,165,32}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,34,7}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,88}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,40,16}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,76}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,175,34}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,44,9}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,76}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,50,18}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,64}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,185,36}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,54,11}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,64}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,60,20}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,52}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,195,38}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,64,13}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,52}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,70,22}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,40}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,205,40}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,74,15}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,40}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,80,24}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,28}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,215,42}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,84,17}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,28}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,90,26}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,16}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,225,44}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,94,19}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,16}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,100,28}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,4}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,235,46}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,104,21}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,4}
+Helicopter#Leo(1): Regarde comme il fait beau, faut sortir s'amuser ! {10,110,30}
+Helicopter#Fan(2): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {2,110,0}
+Helicopter#Fan(2): Je suis au sol. {2,110,0}
+Helicopter#Chr(3): Regarde comme il fait beau, faut sortir s'amuser ! {9,245,48}
+Helicopter#Emm(4): Regarde comme il fait beau, faut sortir s'amuser ! {21,114,23}
+Helicopter#Mon(5): La neige en vol c'est pas terrible ! C'est mieux pour le ski... {42,110,0}
+Helicopter#Mon(5): Je suis au sol. {42,110,0}

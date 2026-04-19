@@ -8,8 +8,10 @@ public final class WeatherProvider
 
     private WeatherProvider() {}
 
-    public static WeatherProvider getInstance() {
-        if (instance == null) {
+    public static WeatherProvider getInstance()
+    {
+        if (instance == null)
+        {
             instance = new WeatherProvider();
         }
         return instance;
@@ -18,7 +20,7 @@ public final class WeatherProvider
 	public String getCurrentWeather(Coordinates p_coordinates)
 	{
 		DateTimeFormatter secs = DateTimeFormatter.ofPattern("ss");
-//		System.out.println(Integer.parseInt(LocalDateTime.now().format(secs)));
+
 		return weather
 		[
 			(
