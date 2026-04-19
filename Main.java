@@ -1,4 +1,3 @@
-import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -26,6 +25,25 @@ public class Main
 	
 	public static void main(String[] args)
 	{
+//		try
+//		{
+//			Logger logger = Logger.getLogger();
+//			
+//			int i = 15;
+//			while (i > 0)
+//			{
+//				logger.logMsg("i = " + i);
+//				i--;
+//			}
+//			logger.writeLogs();
+//			
+//		}
+//		catch (IOException e)
+//		{
+//			System.out.println("Logger impossible à instancier.");
+//		}
+		
+		
 		ArrayList<AircraftParameters> listAircraftParameters = new ArrayList<AircraftParameters>();
 		
 		listAircraftParameters.add(new AircraftParameters("Helicopter", "Leo", new Coordinates(10,10,10)));
@@ -37,15 +55,6 @@ public class Main
 		ArrayList<Flyable> listFlyables = Main.aircraftInitilizer(listAircraftParameters);
 		WeatherTower TourMeteo = new WeatherTower();
 		
-        try {
-
-            FileWriter fw = new FileWriter("output.txt", false);
-            fw.write("");
-            fw.close();
-            System.out.println("Contenu supprimé.");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
 		
 		for (Flyable flyable : listFlyables)
 		{
@@ -66,6 +75,17 @@ public class Main
 				System.out.println("Erreur de la simulation.");
 			}
 			i--;
+		}
+		
+		try
+		{
+			Logger logger = Logger.getLogger();
+			logger.writeLogs();
+			
+		}
+		catch (IOException e)
+		{
+			System.out.println("Logger impossible à instancier.");
 		}
 
 	}
