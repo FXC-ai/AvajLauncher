@@ -1,4 +1,13 @@
-import java.io.IOException;
+/*
+ * Class Aircraft implements Flyable
+ * # long id
+ * # string name
+ * # Coordinate coordinates
+ * 
+ * # Aircraft(long p_id, String p_name, Coordinates p_coordinates)
+ * 
+ * */
+
 
 public class Aircraft extends Flyable
 {
@@ -7,7 +16,7 @@ public class Aircraft extends Flyable
 	protected Coordinates coordinates;
 	protected Logger logger;
 	
-	protected Aircraft(long p_id, String p_name, Coordinates p_coordinates) throws IOException
+	protected Aircraft(long p_id, String p_name, Coordinates p_coordinates)
 	{
 		this.coordinates = p_coordinates;
 		this.name = p_name;
@@ -15,12 +24,9 @@ public class Aircraft extends Flyable
 		this.logger = Logger.getLogger();
 
 	}
-	public void registerTower(WeatherTower p_tower)
-	{
-		this.weatherTower = p_tower;
-	}
+
 	
-	public void updateConditions() throws Exception
+	public void updateConditions()
 	{
 
 	}	

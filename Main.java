@@ -1,3 +1,4 @@
+import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 
@@ -25,35 +26,46 @@ public class Main
 	
 	public static void main(String[] args)
 	{
-//		try
-//		{
-//			Logger logger = Logger.getLogger();
-//			
-//			int i = 15;
-//			while (i > 0)
-//			{
-//				logger.logMsg("i = " + i);
-//				i--;
-//			}
-//			logger.writeLogs();
-//			
-//		}
-//		catch (IOException e)
-//		{
-//			System.out.println("Logger impossible à instancier.");
-//		}
-		
-		
+		try
+		{
+			FileWriter fileCleaner = new FileWriter("output.txt", false);
+			fileCleaner.write("");
+			fileCleaner.close();
+		}
+		catch (IOException e)
+		{
+			System.out.println("Impossible de supprimerle contenu du fichier .txt");
+		}
+	    
 		ArrayList<AircraftParameters> listAircraftParameters = new ArrayList<AircraftParameters>();
 		
-		listAircraftParameters.add(new AircraftParameters("Helicopter", "Leo", new Coordinates(10,10,10)));
-		listAircraftParameters.add(new AircraftParameters("Helicopter", "Fan", new Coordinates(100,2,100)));
-		listAircraftParameters.add(new AircraftParameters("Helicopter", "Chr", new Coordinates(150,9,30)));
-		listAircraftParameters.add(new AircraftParameters("Helicopter", "Emm", new Coordinates(14,21,3)));
-		listAircraftParameters.add(new AircraftParameters("Helicopter", "Mon", new Coordinates(100,42,100)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Alpha", new Coordinates(20, 50, 15)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Bravo", new Coordinates(80, 15, 40)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Delta", new Coordinates(200, 10, 6)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Echo", new Coordinates(45, 80, 25)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Foxtrot", new Coordinates(120, 30, 90)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Golf", new Coordinates(300, 5, 10)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Hotel", new Coordinates(12, 95, 88)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "India", new Coordinates(55, 25, 33)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Juliet", new Coordinates(400, 12, 120)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Kilo", new Coordinates(99, 60, 44)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Lima", new Coordinates(10, 10, 10)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Mike", new Coordinates(180, 8, 200)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "November", new Coordinates(77, 40, 55)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Oscar", new Coordinates(25, 35, 65)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Papa", new Coordinates(500, 3, 300)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Quebec", new Coordinates(33, 75, 12)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Romeo", new Coordinates(150, 20, 150)));
+		listAircraftParameters.add(new AircraftParameters("Baloon", "Sierra", new Coordinates(220, 7, 80)));
+		listAircraftParameters.add(new AircraftParameters("JetPlane", "Tango", new Coordinates(88, 55, 22)));
+		listAircraftParameters.add(new AircraftParameters("Helicopter", "Uniform", new Coordinates(66, 45, 99)));
 	
 		ArrayList<Flyable> listFlyables = Main.aircraftInitilizer(listAircraftParameters);
-		WeatherTower TourMeteo = new WeatherTower();
+		WeatherTower TourMeteo;
+		
+
+		TourMeteo = new WeatherTower();
+
 		
 		
 		for (Flyable flyable : listFlyables)
@@ -62,12 +74,12 @@ public class Main
 			flyable.registerTower(TourMeteo);
 		}		
 		
-		int i = 10;
+		int i = 15;
 		while (i > 0)
 		{
-			System.out.println("Tour " + i + " :");
 			try
 			{
+				Logger.getLogger().logMsg("\nTour " + i + "");
 				TourMeteo.changeWeather();				
 			}
 			catch (Exception e)
@@ -81,12 +93,14 @@ public class Main
 		{
 			Logger logger = Logger.getLogger();
 			logger.writeLogs();
-			
+			logger.printLogs();
 		}
 		catch (IOException e)
 		{
 			System.out.println("Logger impossible à instancier.");
 		}
+		
+	
 
 	}
     

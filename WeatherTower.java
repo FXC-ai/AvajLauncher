@@ -1,24 +1,28 @@
+
+/*
+ * Class WeatherTower inherited from Tower
+ * + string getWeather(Coordinates p_coordinates)
+ * + void changeWeather()
+ * 
+ * */
+
+
 public class WeatherTower extends Tower
 {
-	public WeatherTower()
-	{
-		super();
-	}
+//	public WeatherTower()
+//	{
+//		super();
+//	}
 		
 	public String getWeather (Coordinates coordinates)
 	{
 		return WeatherProvider.getInstance().getCurrentWeather(coordinates);
 	}
 	
-	void changeWeather() throws Exception
+	void changeWeather()
 	{
-		try
-		{
+
 			this.conditionChanged();			
-		}
-		catch (Exception e)
-		{
-			throw new Exception();
-		}
+
 	}	
 }

@@ -1,28 +1,22 @@
-
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
 
-
 public class Logger
 {
     private static Logger instance;
     private List<String> logs;
     
-    private Logger() throws IOException
+    private Logger()
     {
-    	FileWriter fileCleaner = new FileWriter("output.txt", false);
-	    fileCleaner.write("");
-	    fileCleaner.close();	
-	    System.out.println("Contenu supprimé.");
+	
 	    
 	    this.logs = new ArrayList<>();
-		
     }
 
-    public static Logger getLogger() throws IOException
+    public static Logger getLogger()
     {
         if (instance == null)
         {
@@ -46,8 +40,14 @@ public class Logger
         	bw.newLine();
         }
         bw.close();
-        System.out.println("Texte ajouté avec succès !");
     }
     
+    public void printLogs()
+    {
+        for (String str : this.logs)
+        {        	
+        	System.out.println(str);
+        }
+    }
     
 }

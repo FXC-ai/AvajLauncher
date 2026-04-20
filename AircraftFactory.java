@@ -1,3 +1,11 @@
+/*
+ * Singleton
+ * class AircraftFactory
+ * + Flyable* newAircraft(string p_type, string p_name, Coordinates p_coordinates)
+ * 
+ * */
+
+
 public class AircraftFactory
 {
 	private static AircraftFactory instance;
@@ -29,16 +37,22 @@ public class AircraftFactory
 			String p_type,
 			String p_name,
 			Coordinates p_coordinate
-	) throws Exception 
+	) throws Exception
 	{
 		p_id += 1;
+
 		switch(p_type)
 		{
 			case "Helicopter":
 				return new Helicopter(p_id, p_name, p_coordinate);
-			default:
+			case "JetPlane":
+				return  new JetPlane(p_id, p_name, p_coordinate);
+			case "Baloon":
+				return  new Baloon(p_id, p_name, p_coordinate);
+			default :
 				throw new Exception();
 		}
+		
 	}
 	
 }

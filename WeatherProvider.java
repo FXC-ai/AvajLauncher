@@ -1,3 +1,13 @@
+/*
+ * Singleton
+ * class WeatherProvider
+ * - String[] weather
+ * 
+ * - WeatherProvider()
+ * + string getCurrentWeather(Coordinates p_coordinates)
+ * 
+ * */
+
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
