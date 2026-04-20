@@ -1,15 +1,15 @@
 /*
  * Inherited from Aircraft
- * class Baloon
- * + Baloon(long p_id, string p_name, Coordinates p_coordinate)
+ * class Balloon
+ * + Balloon(long p_id, string p_name, Coordinates p_coordinate)
  * + void updateConditions()
  * 
  */
 
-public class Baloon extends Aircraft
+public class Balloon extends Aircraft
 {
 	
-	public Baloon(long p_id, String p_name, Coordinates p_coordinates)
+	public Balloon(long p_id, String p_name, Coordinates p_coordinates)
 	{
 		super(p_id, p_name, p_coordinates);
 	}

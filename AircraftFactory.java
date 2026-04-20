@@ -37,7 +37,7 @@ public class AircraftFactory
 			String p_type,
 			String p_name,
 			Coordinates p_coordinate
-	) throws Exception
+	) throws InvalidAircraftTypeException
 	{
 		p_id += 1;
 
@@ -47,10 +47,10 @@ public class AircraftFactory
 				return new Helicopter(p_id, p_name, p_coordinate);
 			case "JetPlane":
 				return  new JetPlane(p_id, p_name, p_coordinate);
-			case "Baloon":
-				return  new Baloon(p_id, p_name, p_coordinate);
+			case "Balloon":
+				return  new Balloon(p_id, p_name, p_coordinate);
 			default :
-				throw new Exception();
+				throw new InvalidAircraftTypeException(p_type);
 		}
 		
 	}

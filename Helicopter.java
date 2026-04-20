@@ -1,6 +1,4 @@
-
 /*
- * 
  * Class Helicopter inherited from Aircraft
  * + Helicopter(long p_id, String p_name, Coordinates p_coordinates)
  * + void updateConditions()

@@ -1,308 +1,100 @@
-Tower says : [34mJetPlane#Alpha(1)[0m registered to weather tower.
-Tower says : [33mHelicopter#Bravo(2)[0m registered to weather tower.
-Tower says : [32mBaloon#Delta(3)[0m registered to weather tower.
-Tower says : [34mJetPlane#Echo(4)[0m registered to weather tower.
-Tower says : [33mHelicopter#Foxtrot(5)[0m registered to weather tower.
-Tower says : [32mBaloon#Golf(6)[0m registered to weather tower.
-Tower says : [34mJetPlane#Hotel(7)[0m registered to weather tower.
-Tower says : [33mHelicopter#India(8)[0m registered to weather tower.
-Tower says : [32mBaloon#Juliet(9)[0m registered to weather tower.
-Tower says : [34mJetPlane#Kilo(10)[0m registered to weather tower.
-Tower says : [33mHelicopter#Lima(11)[0m registered to weather tower.
-Tower says : [32mBaloon#Mike(12)[0m registered to weather tower.
-Tower says : [34mJetPlane#November(13)[0m registered to weather tower.
-Tower says : [33mHelicopter#Oscar(14)[0m registered to weather tower.
-Tower says : [32mBaloon#Papa(15)[0m registered to weather tower.
-Tower says : [34mJetPlane#Quebec(16)[0m registered to weather tower.
-Tower says : [33mHelicopter#Romeo(17)[0m registered to weather tower.
-Tower says : [32mBaloon#Sierra(18)[0m registered to weather tower.
-Tower says : [34mJetPlane#Tango(19)[0m registered to weather tower.
-Tower says : [33mHelicopter#Uniform(20)[0m registered to weather tower.
+
+Tour 50
+
+Tour 49
+
+Tour 48
+
+Tour 47
+
+Tour 46
+
+Tour 45
+
+Tour 44
+
+Tour 43
+
+Tour 42
+
+Tour 41
+
+Tour 40
+
+Tour 39
+
+Tour 38
+
+Tour 37
+
+Tour 36
+
+Tour 35
+
+Tour 34
+
+Tour 33
+
+Tour 32
+
+Tour 31
+
+Tour 30
+
+Tour 29
+
+Tour 28
+
+Tour 27
+
+Tour 26
+
+Tour 25
+
+Tour 24
+
+Tour 23
+
+Tour 22
+
+Tour 21
+
+Tour 20
+
+Tour 19
+
+Tour 18
+
+Tour 17
+
+Tour 16
 
 Tour 15
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Bravo(2)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Delta(3)[0m : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : It's raining again ! On va être super trempé ;)
-[32mBaloon#Golf(6)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Hotel(7)[0m : La neige refroidit trop mon moteur, ça m'inquiète un peu.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-[34mJetPlane#Kilo(10)[0m : La neige refroidit trop mon moteur, ça m'inquiète un peu.
-[33mHelicopter#Lima(11)[0m : Ce brouillard est infernal ! Je pourrais le couper au couteau !
-[32mBaloon#Mike(12)[0m : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : It's raining again ! On va être super trempé ;)
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : Ce brouillard est infernal ! Je pourrais le couper au couteau !
 
 Tour 14
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Bravo(2)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Delta(3)[0m : Il fait bien froid dans cette nacelle.
-[32mBaloon#Delta(3)[0m: Je suis au sol.
-Tower says : [32mBaloon#Delta(3)[0m unregistered from weather tower.
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Golf(6)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Lima(11)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[33mHelicopter#Lima(11)[0m : Je suis au sol.
-Tower says : [33mHelicopter#Lima(11)[0m unregistered from weather tower.
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : La neige refroidit trop mon moteur, ça m'inquiète un peu.
-[33mHelicopter#Romeo(17)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 13
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Bravo(2)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Golf(6)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 12
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Bravo(2)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[33mHelicopter#Bravo(2)[0m : Je suis au sol.
-Tower says : [33mHelicopter#Bravo(2)[0m unregistered from weather tower.
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Golf(6)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 11
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Golf(6)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 10
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Golf(6)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[32mBaloon#Golf(6)[0m: Je suis au sol.
-Tower says : [32mBaloon#Golf(6)[0m unregistered from weather tower.
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 9
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 8
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 7
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
 
 Tour 6
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
-[33mHelicopter#Uniform(20)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[33mHelicopter#Uniform(20)[0m : Je suis au sol.
-Tower says : [33mHelicopter#Uniform(20)[0m unregistered from weather tower.
 
 Tour 5
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
 
 Tour 4
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Romeo(17)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[33mHelicopter#Romeo(17)[0m : Je suis au sol.
-Tower says : [33mHelicopter#Romeo(17)[0m unregistered from weather tower.
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
 
 Tour 3
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
 
 Tour 2
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[32mBaloon#Sierra(18)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
 
 Tour 1
-[34mJetPlane#Alpha(1)[0m : Mon Cesna et moi on adore le soleil !
-[34mJetPlane#Echo(4)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[33mHelicopter#Foxtrot(5)[0m : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
-[34mJetPlane#Hotel(7)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#India(8)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Juliet(9)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#Kilo(10)[0m : Horrible ce brouillard. Je pilote aux instruments !
-[32mBaloon#Mike(12)[0m : C'est dommage, ce brouillard empêche d'admirer le paysage.
-[34mJetPlane#November(13)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[33mHelicopter#Oscar(14)[0m : Regarde comme il fait beau, faut sortir s'amuser !
-[32mBaloon#Papa(15)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Quebec(16)[0m : Dans le cockpit ça va. La pluie ne dérange pas trop.
-[32mBaloon#Sierra(18)[0m : Il fait bien froid dans cette nacelle.
-[34mJetPlane#Tango(19)[0m : Mon Cesna et moi on adore le soleil !
