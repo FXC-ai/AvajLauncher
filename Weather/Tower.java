@@ -7,10 +7,13 @@
  * # void conditionChanged()
  * 
  */
-
+package Weather;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import Aircraft.Flyable;
+import AvajLauncher.Logger;
 
 public class Tower
 {	

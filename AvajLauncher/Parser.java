@@ -8,6 +8,16 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import Aircraft.AircraftFactory;
+import Aircraft.Flyable;
+import Exceptions.FirstLineErrorException;
+import Exceptions.InvalidAircraftNameException;
+import Exceptions.InvalidAircraftTypeException;
+import Exceptions.InvalidCoordinatesException;
+import Exceptions.InvalidHeightException;
+import Exceptions.NonUniqueNameException;
+import Exceptions.TokenNumberException;
+
 public class Parser
 {
 	private int repeat = 0;
@@ -52,7 +62,8 @@ public class Parser
                 
                 if (!firstLineParsed)
                 {
-                	try {this.repeat = Integer.parseUnsignedInt(line);} catch (NumberFormatException e) {throw new FirstLineErrorException(line);}
+                	try {this.repeat = Integer.parseUnsignedInt(line);} 
+                	catch (NumberFormatException e) {throw new FirstLineErrorException(line);}
                 	firstLineParsed = true;
                 }
                 else

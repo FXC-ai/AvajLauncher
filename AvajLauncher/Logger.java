@@ -12,8 +12,6 @@ public class Logger
     
     private Logger()
     {
-	
-	    
 	    this.logs = new ArrayList<>();
     }
 

@@ -4,7 +4,10 @@
  * + Flyable* newAircraft(string p_type, string p_name, Coordinates p_coordinates)
  * 
  * */
+package Aircraft;
 
+import AvajLauncher.Coordinates;
+import Exceptions.InvalidAircraftTypeException;
 
 public class AircraftFactory
 {

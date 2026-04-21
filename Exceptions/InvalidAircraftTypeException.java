@@ -1,4 +1,4 @@
-package AvajLauncher;
+package Exceptions;
 
 public class InvalidAircraftTypeException extends Exception
 {

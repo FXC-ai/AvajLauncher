@@ -5,7 +5,9 @@
  *	+ void registerTower(WeatherTower* p_tower);
  * 
  * */
-package AvajLauncher;
+package Aircraft;
+
+import Weather.WeatherTower;
 
 public abstract class Flyable
 {

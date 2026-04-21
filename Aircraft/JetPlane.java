@@ -4,7 +4,9 @@
  * + JetPlane(long p_id, string p_name, Coordinates p_coordinate)
  * + void updateConditions()
  */
-package AvajLauncher;
+package Aircraft;
+
+import AvajLauncher.Coordinates;
 
 public class JetPlane extends Aircraft
 {

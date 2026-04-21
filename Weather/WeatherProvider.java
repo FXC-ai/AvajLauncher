@@ -7,9 +7,12 @@
  * + string getCurrentWeather(Coordinates p_coordinates)
  * 
  * */
+package Weather;
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
+
+import AvajLauncher.Coordinates;
 
 public final class WeatherProvider
 {

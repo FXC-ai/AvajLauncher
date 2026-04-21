@@ -2,9 +2,17 @@ package AvajLauncher;
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
+
+import Aircraft.Flyable;
+import Exceptions.FirstLineErrorException;
+import Exceptions.InvalidAircraftNameException;
+import Exceptions.InvalidAircraftTypeException;
+import Exceptions.InvalidCoordinatesException;
+import Exceptions.InvalidHeightException;
+import Exceptions.NonUniqueNameException;
+import Exceptions.TokenNumberException;
+import Weather.WeatherTower;
 
 public class Main
 {
@@ -107,7 +115,8 @@ public class Main
 		{
 			System.out.println("Impossible de log la simulation.");
 		}
-		// logger.printLogs();
+		logger.printLogs();
+		System.out.println("Simulation terminée avec succés.");
 	}
 	
 	public static void main(String[] args)

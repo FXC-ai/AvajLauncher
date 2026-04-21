@@ -4,6 +4,9 @@
  * + void updateConditions()
  * 
  * */
+package Aircraft;
+
+import AvajLauncher.Coordinates;
 
 public class Helicopter extends Aircraft
 {
@@ -54,7 +57,13 @@ public class Helicopter extends Aircraft
 	}
 	
     @Override
-    public String toString() {
+    public String toString()
+    {
+        return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";
+    }
+    
+    public String toStringWithColor()
+    {
         return ANSI_YELLOW + this.getClass().getName() +"#"+ this.name + "(" + this.id + ")" + ANSI_RESET;
     }
 }
