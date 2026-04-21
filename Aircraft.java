@@ -7,10 +7,7 @@
  * # Aircraft(long p_id, String p_name, Coordinates p_coordinates)
  * 
  * */
-package Aircraft;
 
-import AvajLauncher.Coordinates;
-import AvajLauncher.Logger;
 
 public class Aircraft extends Flyable
 {

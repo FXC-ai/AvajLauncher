@@ -10,7 +10,7 @@
  *	+ int getHeight()
  * 
  * */
-package AvajLauncher;
+
 
 public class Coordinates
 {

@@ -1,18 +1,8 @@
-package AvajLauncher;
+
 import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
-
-import Aircraft.Flyable;
-import Exceptions.FirstLineErrorException;
-import Exceptions.InvalidAircraftNameException;
-import Exceptions.InvalidAircraftTypeException;
-import Exceptions.InvalidCoordinatesException;
-import Exceptions.InvalidHeightException;
-import Exceptions.NonUniqueNameException;
-import Exceptions.TokenNumberException;
-import Weather.WeatherTower;
 
 public class Main
 {

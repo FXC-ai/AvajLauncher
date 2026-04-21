@@ -4,9 +4,7 @@
  * + void changeWeather()
  * 
  * */
-package Weather;
 
-import AvajLauncher.Coordinates;
 
 public class WeatherTower extends Tower
 {

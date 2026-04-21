@@ -4,9 +4,7 @@
  * + void updateConditions()
  * 
  * */
-package Aircraft;
 
-import AvajLauncher.Coordinates;
 
 public class Helicopter extends Aircraft
 {

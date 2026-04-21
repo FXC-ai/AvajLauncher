@@ -5,9 +5,7 @@
  *	+ void registerTower(WeatherTower* p_tower);
  * 
  * */
-package Aircraft;
 
-import Weather.WeatherTower;
 
 public abstract class Flyable
 {

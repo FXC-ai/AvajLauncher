@@ -1,4 +1,4 @@
-package Exceptions;
+
 
 public class InvalidCoordinatesException extends Exception
 {

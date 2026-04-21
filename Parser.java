@@ -1,4 +1,4 @@
-package AvajLauncher;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -7,16 +7,6 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
-
-import Aircraft.AircraftFactory;
-import Aircraft.Flyable;
-import Exceptions.FirstLineErrorException;
-import Exceptions.InvalidAircraftNameException;
-import Exceptions.InvalidAircraftTypeException;
-import Exceptions.InvalidCoordinatesException;
-import Exceptions.InvalidHeightException;
-import Exceptions.NonUniqueNameException;
-import Exceptions.TokenNumberException;
 
 public class Parser
 {

@@ -1,4 +1,4 @@
-package Exceptions;
+
 
 public class NonUniqueNameException extends Exception
 {

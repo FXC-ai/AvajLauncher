@@ -5,9 +5,7 @@
  * + void updateConditions()
  * 
  */
-package Aircraft;
 
-import AvajLauncher.Coordinates;
 
 public class Balloon extends Aircraft
 {

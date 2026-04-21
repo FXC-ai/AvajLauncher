@@ -1,4 +1,4 @@
-package Exceptions;
+
 
 public class FirstLineErrorException extends Exception
 {
