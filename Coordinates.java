@@ -11,10 +11,8 @@
  * 
  * */
 
-
 public class Coordinates
 {
-	
 	private int longitude;
 	private int latitude;
 	private int height;
@@ -23,8 +21,7 @@ public class Coordinates
 	{
 		this.longitude = p_longitude;
 		this.latitude = p_latitude;
-		this.height = p_height;
-		
+		this.height = Math.min(100, p_height);		
 	}
 	
 	public int getLongitude()
@@ -54,11 +51,12 @@ public class Coordinates
 	
 	public void setHeight(int new_height)
 	{
-		this.height = new_height;
+		this.height = Math.min(100, new_height);
 	}
 	
     @Override
-    public String toString() {
+    public String toString()
+	{
         return "{" + this.latitude + "," + this.longitude + "," + this.height + "}";
     }
 	

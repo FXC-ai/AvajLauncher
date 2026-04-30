@@ -36,11 +36,9 @@ public class Parser
     	
         try (BufferedReader br = new BufferedReader(new FileReader(this.filename)))
         {
-
             String line;
             int index = 0;
             boolean firstLineParsed = false;
-            
             
             while ((line = br.readLine()) != null)
             {
@@ -77,8 +75,6 @@ public class Parser
     				{
     					throw new InvalidAircraftTypeException("(" + index + ") " + line + " | " + words[0]);
     				}
-    				
-
 
     				if (!words[1].matches("^[a-zA-Z0-9]+"))
     				{
@@ -103,13 +99,15 @@ public class Parser
     					throw new InvalidCoordinatesException("(" + index + ") " + line);
     				}
     				
-                    if (longitude == 0 || latitude == 0)
-                        throw new InvalidCoordinatesException("(" + index + ") " + line + " | coordonnées strictement positives");
+                    // if (longitude == 0 || latitude == 0)
+					// {
+                    //     throw new InvalidCoordinatesException("(" + index + ") " + line + " | coordonnées strictement positives");
+					// }
                     
-    				if (height > 100)
-    				{
-    					throw new InvalidHeightException("(" + index + ") " + line + " | " + words[4]);
-    				}
+    				// if (height > 100)
+    				// {
+    				//      throw new InvalidHeightException("(" + index + ") " + line + " | " + words[4]);
+    				// }
 
                 	this.listFlyable.add(AircraftFactory.getAircraftFactory().newAircraft(words[0], words[1], new Coordinates(longitude, latitude, height)));
                 }
