@@ -31,12 +31,12 @@ public class JetPlane extends Aircraft
 		        break;
 
 		    case "FOG":
-		        this.coordinates.setLongitude(currentLatitude + 1);
+		        this.coordinates.setLatitude(currentLatitude + 1);
 		        this.logger.logMsg(this.toString() + " : Horrible ce brouillard. Je pilote aux instruments !");
 		        break;
 
 		    case "RAIN":
-		        this.coordinates.setLongitude(currentLatitude + 5);
+		        this.coordinates.setLatitude(currentLatitude + 5);
 		        this.logger.logMsg(this.toString() + " : Dans le cockpit ça va. La pluie ne dérange pas trop.");
 		        break;
 

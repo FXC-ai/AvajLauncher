@@ -42,7 +42,7 @@ public class Balloon extends Aircraft
 		        break;
 
 		    case "SNOW":
-		    	if (currentHeight > 1) { this.coordinates.setHeight(currentHeight - 1); } else { this.coordinates.setHeight(0);};
+		    	if (currentHeight > 15) { this.coordinates.setHeight(currentHeight - 15); } else { this.coordinates.setHeight(0);};
 		    	this.logger.logMsg(this.toString() +  " : Il fait bien froid dans cette nacelle.");
 		        break;
 
