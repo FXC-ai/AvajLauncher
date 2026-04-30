@@ -1,3 +1,0 @@
-5\r\n
-Balloon B1 2 3 20\r\n
-JetPlane J1 23 44 32\r\n

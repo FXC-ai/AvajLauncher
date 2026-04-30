@@ -12,6 +12,7 @@ InvalidHeightException.java
 JetPlane.java
 Logger.java
 Main.java
+NoAircraftException.java
 NonUniqueNameException.java
 Parser.java
 TokenNumberException.java

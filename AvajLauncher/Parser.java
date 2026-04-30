@@ -30,7 +30,8 @@ public class Parser
     TokenNumberException,
     NonUniqueNameException,
     InvalidCoordinatesException,
-    InvalidHeightException
+    InvalidHeightException,
+	NoAircraftException
     {
     	Set<String> setName = new HashSet<>();
     	
@@ -117,6 +118,11 @@ public class Parser
             {
                 throw new FirstLineErrorException("<fichier vide>");
             }
+
+			if (index <= 1)
+			{
+				throw new NoAircraftException();
+			}
         }
     }
     

@@ -1,4 +1,0 @@
-Tower says : Balloon#Zizou(1) registered to weather tower.
-Balloon#Zizou(1) : Il fait bien froid dans cette nacelle.
-Balloon#Zizou(1): Je suis au sol.
-Tower says : Balloon#Zizou(1) unregistered from weather tower.

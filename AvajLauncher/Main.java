@@ -63,6 +63,11 @@ public class Main
 		    System.out.println(e.getMessage());
 		    return false;
 		}
+		catch (NoAircraftException e)
+		{
+			System.out.println(e.getMessage());
+			return false;
+		}
 		
 		return true;
 	}
