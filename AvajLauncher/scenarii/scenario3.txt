@@ -1,0 +1,21 @@
+50
+JetPlane Orion 2 5 8
+Helicopter Vega 3 7 11
+Balloon Atlas 12 44 9
+JetPlane Nova 4 6 120
+Helicopter Sirius 5 88 14
+Balloon Milo 21 65 17
+JetPlane Titan 6 9 180
+Helicopter Echo 7 132 20
+Balloon Flora 33 76 25
+JetPlane Apollo 8 12 240
+Helicopter Nemo 9 156 28
+Balloon Luna 45 98 31
+JetPlane Comet 10 15 270
+Helicopter Draco 11 178 34
+Balloon Iris 52 116 37
+JetPlane Falcon 12 18 290
+Helicopter Hugo 13 201 40
+Balloon Solis 64 138 43
+JetPlane Zenith 14 21 300
+Helicopter Brio 15 222 46

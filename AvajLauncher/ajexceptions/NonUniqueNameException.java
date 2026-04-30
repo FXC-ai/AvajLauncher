@@ -1,4 +1,4 @@
-
+package ajexceptions;
 
 public class NonUniqueNameException extends Exception
 {

@@ -1,4 +1,4 @@
-
+package ajexceptions;
 
 public class InvalidHeightException extends Exception
 {

@@ -1,3 +1,5 @@
+package ajexceptions;
+
 public class NoAircraftException extends Exception
 {
     public NoAircraftException ()

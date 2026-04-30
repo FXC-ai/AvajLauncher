@@ -35,7 +35,7 @@ public final class WeatherProvider
 		return weather
 		[
 			(
-					Integer.parseInt(LocalDateTime.now().format(secs)) +  
+					(Integer.parseInt(LocalDateTime.now().format(secs)) * 100) / 60 +  
 					p_coordinates.getHeight() +  
 					p_coordinates.getLatitude() +  
 					p_coordinates.getLongitude()

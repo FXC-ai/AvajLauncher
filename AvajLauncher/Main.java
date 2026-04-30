@@ -3,6 +3,7 @@ import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
+import ajexceptions.*;
 
 public class Main
 {
@@ -110,7 +111,7 @@ public class Main
 		{
 			System.out.println("Impossible de log la simulation.");
 		}
-		logger.printLogs();
+		// logger.printLogs();
 		System.out.println("Simulation terminée avec succés.");
 	}
 	
