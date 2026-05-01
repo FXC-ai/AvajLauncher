@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -8,7 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import ajexceptions.*;
-
 
 public class Parser
 {
@@ -102,16 +100,6 @@ public class Parser
     					throw new InvalidCoordinatesException("(" + index + ") " + line);
     				}
     				
-                    // if (longitude == 0 || latitude == 0)
-					// {
-                    //     throw new InvalidCoordinatesException("(" + index + ") " + line + " | coordonnées strictement positives");
-					// }
-                    
-    				// if (height > 100)
-    				// {
-    				//      throw new InvalidHeightException("(" + index + ") " + line + " | " + words[4]);
-    				// }
-
                 	this.listFlyable.add(AircraftFactory.getAircraftFactory().newAircraft(words[0], words[1], new Coordinates(longitude, latitude, height)));
                 }
             }
@@ -127,7 +115,6 @@ public class Parser
 			}
         }
     }
-    
     
     public int getRepeat()
     {
@@ -154,7 +141,6 @@ public class Parser
     	}
         return "Filename = " + this.filename + "\nRepeat = " + this.repeat + "\n" + listAircrafts;
     }
-    
 }
 
 

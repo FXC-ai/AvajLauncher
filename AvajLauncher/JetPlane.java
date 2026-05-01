@@ -5,7 +5,6 @@
  * + void updateConditions()
  */
 
-
 public class JetPlane extends Aircraft
 {
 	
@@ -55,12 +54,8 @@ public class JetPlane extends Aircraft
 	}
 	
     @Override
-    public String toString() {
+    public String toString()
+	{
         return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";
-    }
-    
-    public String toStringWithColor() {
-        return ANSI_BLUE + this.getClass().getName() +"#"+ this.name + "(" + this.id + ")" + ANSI_RESET;
-    }
-	
+    }	
 }

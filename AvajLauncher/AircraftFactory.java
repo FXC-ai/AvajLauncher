@@ -53,7 +53,5 @@ public class AircraftFactory
 			default :
 				throw new InvalidAircraftTypeException(p_type);
 		}
-		
 	}
-	
 }

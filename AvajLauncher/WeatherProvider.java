@@ -1,3 +1,6 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 /*
  * Singleton
  * class WeatherProvider
@@ -7,10 +10,6 @@
  * + string getCurrentWeather(Coordinates p_coordinates)
  * 
  * */
-
-
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
 
 public final class WeatherProvider
 {

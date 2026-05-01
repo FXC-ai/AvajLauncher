@@ -5,7 +5,6 @@
  * 
  * */
 
-
 public class Helicopter extends Aircraft
 {
 	
@@ -58,10 +57,5 @@ public class Helicopter extends Aircraft
     public String toString()
     {
         return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";
-    }
-    
-    public String toStringWithColor()
-    {
-        return ANSI_YELLOW + this.getClass().getName() +"#"+ this.name + "(" + this.id + ")" + ANSI_RESET;
     }
 }

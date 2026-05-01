@@ -11,11 +11,11 @@ Parser.java
 Tower.java
 WeatherProvider.java
 WeatherTower.java
-ajexceptions/NoAircraftException.java
-ajexceptions/TokenNumberException.java
 ajexceptions/FirstLineErrorException.java
-ajexceptions/InvalidAircraftTypeException.java
-ajexceptions/InvalidHeightException.java
 ajexceptions/InvalidAircraftNameException.java
-ajexceptions/NonUniqueNameException.java
+ajexceptions/InvalidAircraftTypeException.java
 ajexceptions/InvalidCoordinatesException.java
+ajexceptions/InvalidHeightException.java
+ajexceptions/NoAircraftException.java
+ajexceptions/NonUniqueNameException.java
+ajexceptions/TokenNumberException.java

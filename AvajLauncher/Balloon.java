@@ -9,7 +9,6 @@
 
 public class Balloon extends Aircraft
 {
-	
 	public Balloon(long p_id, String p_name, Coordinates p_coordinates)
 	{
 		super(p_id, p_name, p_coordinates);
@@ -58,11 +57,5 @@ public class Balloon extends Aircraft
     public String toString()
     {
         return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";
-    }
-    
-    public String toStringWithColor()
-    {
-        return ANSI_GREEN + this.getClass().getName() +"#"+ this.name + "(" + this.id + ")" + ANSI_RESET;
-    }
-	
+    }	
 }

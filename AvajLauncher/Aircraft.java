@@ -25,10 +25,8 @@ public class Aircraft extends Flyable
 
 	}
 
-	
 	public void updateConditions()
 	{
 
 	}	
-
 }

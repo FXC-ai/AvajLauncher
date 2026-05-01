@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * Class Tower
  * - List<Flyable> observers
@@ -7,10 +10,6 @@
  * # void conditionChanged()
  * 
  */
-
-
-import java.util.ArrayList;
-import java.util.List;
 
 public class Tower
 {	
@@ -46,6 +45,4 @@ public class Tower
 		this.observers.removeAll(this.flyableToDelete);
 		this.flyableToDelete.clear();
 	}
-
-	
 }
