@@ -5,14 +5,8 @@
  * 
  * */
 
-
 public class WeatherTower extends Tower
 {
-//	public WeatherTower()
-//	{
-//		super();
-//	}
-		
 	public String getWeather (Coordinates coordinates)
 	{
 		return WeatherProvider.getInstance().getCurrentWeather(coordinates);
@@ -20,8 +14,6 @@ public class WeatherTower extends Tower
 	
 	public void changeWeather()
 	{
-
-			this.conditionChanged();			
-
+		this.conditionChanged();			
 	}	
 }

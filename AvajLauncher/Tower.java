@@ -1,3 +1,6 @@
+import java.util.ArrayList;
+import java.util.List;
+
 /*
  * Class Tower
  * - List<Flyable> observers
@@ -8,13 +11,10 @@
  * 
  */
 
-
-import java.util.ArrayList;
-import java.util.List;
-
 public class Tower
 {	
 	private List<Flyable> observers;
+
 	private List<Flyable> flyableToDelete;
 	private Logger logger;
 
@@ -46,6 +46,4 @@ public class Tower
 		this.observers.removeAll(this.flyableToDelete);
 		this.flyableToDelete.clear();
 	}
-
-	
 }

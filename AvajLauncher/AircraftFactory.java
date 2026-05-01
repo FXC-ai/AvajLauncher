@@ -52,8 +52,6 @@ public class AircraftFactory
 				return  new Balloon(p_id, p_name, p_coordinate);
 			default :
 				throw new InvalidAircraftTypeException(p_type);
-		}
-		
+		}	
 	}
-	
 }

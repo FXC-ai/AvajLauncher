@@ -30,14 +30,14 @@ public class JetPlane extends Aircraft
 		        this.logger.logMsg(this.toString() + " : Mon Cesna et moi on adore le soleil !");
 		        break;
 
-		    case "FOG":
-		        this.coordinates.setLatitude(currentLatitude + 1);
-		        this.logger.logMsg(this.toString() + " : Horrible ce brouillard. Je pilote aux instruments !");
-		        break;
-
 		    case "RAIN":
 		        this.coordinates.setLatitude(currentLatitude + 5);
 		        this.logger.logMsg(this.toString() + " : Dans le cockpit ça va. La pluie ne dérange pas trop.");
+		        break;
+
+		    case "FOG":
+		        this.coordinates.setLatitude(currentLatitude + 1);
+		        this.logger.logMsg(this.toString() + " : Horrible ce brouillard. Je pilote aux instruments !");
 		        break;
 
 		    case "SNOW":
@@ -45,7 +45,6 @@ public class JetPlane extends Aircraft
 		    	this.coordinates.setHeight(newHeight);
 		    	this.logger.logMsg(this.toString() + " : La neige refroidit trop mon moteur, ça m'inquiète un peu.");
 		        break;
-
 		}
 		if (this.coordinates.getHeight() == 0)
 		{
@@ -55,12 +54,8 @@ public class JetPlane extends Aircraft
 	}
 	
     @Override
-    public String toString() {
+    public String toString()
+	{
         return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";
     }
-    
-    public String toStringWithColor() {
-        return ANSI_BLUE + this.getClass().getName() +"#"+ this.name + "(" + this.id + ")" + ANSI_RESET;
-    }
-	
 }

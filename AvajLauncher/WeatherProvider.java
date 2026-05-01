@@ -1,3 +1,6 @@
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
+
 /*
  * Singleton
  * class WeatherProvider
@@ -8,13 +11,10 @@
  * 
  * */
 
-
-import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
-
 public final class WeatherProvider
 {
     private static WeatherProvider instance;
+
     private String[] weather = {"SUN", "FOG", "SNOW", "RAIN"};
 
     private WeatherProvider() {}

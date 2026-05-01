@@ -59,5 +59,4 @@ public class Coordinates
 	{
         return "{" + this.latitude + "," + this.longitude + "," + this.height + "}";
     }
-	
 }
