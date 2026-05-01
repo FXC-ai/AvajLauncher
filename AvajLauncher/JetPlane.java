@@ -5,7 +5,6 @@
  * + void updateConditions()
  */
 
-
 public class JetPlane extends Aircraft
 {
 	
@@ -54,6 +53,8 @@ public class JetPlane extends Aircraft
 	}
 	
     @Override
+    public String toString()
+	{
     public String toString()
 	{
         return this.getClass().getName() +"#"+ this.name + "(" + this.id + ")";

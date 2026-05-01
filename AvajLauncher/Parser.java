@@ -1,4 +1,3 @@
-
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -8,7 +7,6 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 import ajexceptions.*;
-
 
 public class Parser
 {
@@ -118,7 +116,6 @@ public class Parser
         }
     }
     
-    
     public int getRepeat()
     {
     	return this.repeat;
@@ -144,7 +141,6 @@ public class Parser
     	}
         return "Filename = " + this.filename + "\nRepeat = " + this.repeat + "\n" + listAircrafts;
     }
-    
 }
 
 

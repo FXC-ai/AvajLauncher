@@ -48,5 +48,4 @@ public class Logger
         	System.out.println(str);
         }
     }
-    
 }
