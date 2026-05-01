@@ -1,41 +1,179 @@
-Tower says : Balloon#Zizou(1) registered to weather tower.
-Tower says : Balloon#Pinochet(2) registered to weather tower.
-Tower says : Balloon#Henri(3) registered to weather tower.
-Tower says : Balloon#Aliende(4) registered to weather tower.
-Tower says : Balloon#Castor(5) registered to weather tower.
-Tower says : Balloon#Corpus(6) registered to weather tower.
-Balloon#Zizou(1) : La Montgolfière par beau temps, c'est que du bonheur.
-Balloon#Pinochet(2) : Il fait bien froid dans cette nacelle.
-Balloon#Pinochet(2): Je suis au sol.
-Tower says : Balloon#Pinochet(2) unregistered from weather tower.
-Balloon#Henri(3) : Il fait bien froid dans cette nacelle.
-Balloon#Henri(3): Je suis au sol.
-Tower says : Balloon#Henri(3) unregistered from weather tower.
-Balloon#Aliende(4) : C'est dommage, ce brouillard empêche d'admirer le paysage.
-Balloon#Castor(5) : La Montgolfière par beau temps, c'est que du bonheur.
-Balloon#Corpus(6) : La Montgolfière par beau temps, c'est que du bonheur.
-Balloon#Zizou(1) : Il fait bien froid dans cette nacelle.
-Balloon#Zizou(1): Je suis au sol.
-Tower says : Balloon#Zizou(1) unregistered from weather tower.
-Balloon#Aliende(4) : Il fait bien froid dans cette nacelle.
-Balloon#Castor(5) : Il fait bien froid dans cette nacelle.
-Balloon#Castor(5): Je suis au sol.
-Tower says : Balloon#Castor(5) unregistered from weather tower.
-Balloon#Corpus(6) : Il fait bien froid dans cette nacelle.
-Balloon#Aliende(4) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Corpus(6) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Aliende(4) : Il fait bien froid dans cette nacelle.
-Balloon#Corpus(6) : Il fait bien froid dans cette nacelle.
-Balloon#Aliende(4) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Corpus(6) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Aliende(4) : Il fait bien froid dans cette nacelle.
-Balloon#Corpus(6) : Il fait bien froid dans cette nacelle.
-Balloon#Corpus(6): Je suis au sol.
-Tower says : Balloon#Corpus(6) unregistered from weather tower.
-Balloon#Aliende(4) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Aliende(4) : Il fait bien froid dans cette nacelle.
-Balloon#Aliende(4) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Aliende(4) : Il fait bien froid dans cette nacelle.
-Balloon#Aliende(4) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
-Balloon#Aliende(4): Je suis au sol.
-Tower says : Balloon#Aliende(4) unregistered from weather tower.
+Tower says : Balloon#B1(1) registered to weather tower.
+Tower says : Balloon#B2(2) registered to weather tower.
+Tower says : JetPlane#J1(3) registered to weather tower.
+Tower says : Helicopter#H1(4) registered to weather tower.
+Tower says : Helicopter#H2(5) registered to weather tower.
+Tower says : Helicopter#H3(6) registered to weather tower.
+Tower says : Balloon#B3(7) registered to weather tower.
+Tower says : JetPlane#J2(8) registered to weather tower.
+Tower says : Helicopter#H4(9) registered to weather tower.
+Balloon#B1(1) : Il fait bien froid dans cette nacelle.
+Balloon#B2(2) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J1(3) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H1(4) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B3(7) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Balloon#B1(1) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+Balloon#B1(1): Je suis au sol.
+Tower says : Balloon#B1(1) unregistered from weather tower.
+Balloon#B2(2) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H1(4) : It's raining again ! On va être super trempé ;)
+Helicopter#H2(5) : It's raining again ! On va être super trempé ;)
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J2(8) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+Balloon#B2(2) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H1(4) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B2(2) : Il fait bien froid dans cette nacelle.
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H1(4) : It's raining again ! On va être super trempé ;)
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B2(2) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H1(4) : It's raining again ! On va être super trempé ;)
+Helicopter#H2(5) : It's raining again ! On va être super trempé ;)
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : Il fait bien froid dans cette nacelle.
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B2(2) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H1(4) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B3(7) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J2(8) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+Balloon#B2(2) : Il fait bien froid dans cette nacelle.
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H1(4) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+Balloon#B2(2) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J1(3) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H1(4) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H1(4) : Je suis au sol.
+Tower says : Helicopter#H1(4) unregistered from weather tower.
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Balloon#B3(7) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+Balloon#B2(2) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Balloon#B3(7) : La Montgolfière par beau temps, c'est que du bonheur.
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+Balloon#B2(2) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B2(2) : Il fait bien froid dans cette nacelle.
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Regarde comme il fait beau, faut sortir s'amuser !
+Balloon#B3(7) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+Balloon#B2(2) : Il fait bien froid dans cette nacelle.
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H2(5) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+Balloon#B3(7) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Balloon#B2(2) : Il ne faudrait pas que cette pluie éteigne mon brûleur.
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Regarde comme il fait beau, faut sortir s'amuser !
+Balloon#B3(7) : Il fait bien froid dans cette nacelle.
+Balloon#B3(7): Je suis au sol.
+Tower says : Balloon#B3(7) unregistered from weather tower.
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Balloon#B2(2) : C'est dommage, ce brouillard empêche d'admirer le paysage.
+Balloon#B2(2): Je suis au sol.
+Tower says : Balloon#B2(2) unregistered from weather tower.
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+JetPlane#J1(3) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H2(5) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H2(5) : It's raining again ! On va être super trempé ;)
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H2(5) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H3(6) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H2(5) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+Helicopter#H3(6) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : La neige en vol c'est pas terrible ! C'est mieux pour le ski...
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J1(3) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+JetPlane#J2(8) : Mon Cesna et moi on adore le soleil !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+JetPlane#J1(3) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H2(5) : It's raining again ! On va être super trempé ;)
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+JetPlane#J2(8) : Dans le cockpit ça va. La pluie ne dérange pas trop.
+Helicopter#H4(9) : It's raining again ! On va être super trempé ;)
+JetPlane#J1(3) : La neige refroidit trop mon moteur, ça m'inquiète un peu.
+Helicopter#H2(5) : Ce brouillard est infernal ! Je pourrais le couper au couteau !
+Helicopter#H3(6) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : Regarde comme il fait beau, faut sortir s'amuser !
+JetPlane#J1(3) : Mon Cesna et moi on adore le soleil !
+Helicopter#H2(5) : Regarde comme il fait beau, faut sortir s'amuser !
+Helicopter#H3(6) : It's raining again ! On va être super trempé ;)
+JetPlane#J2(8) : Horrible ce brouillard. Je pilote aux instruments !
+Helicopter#H4(9) : Ce brouillard est infernal ! Je pourrais le couper au couteau !

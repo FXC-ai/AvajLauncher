@@ -1,5 +1,5 @@
 import java.time.LocalDateTime;
-import java.time.format.DateTimeFormatter;
+import java.util.Random;
 
 /*
  * Singleton
@@ -30,12 +30,11 @@ public final class WeatherProvider
     
 	public String getCurrentWeather(Coordinates p_coordinates)
 	{
-		DateTimeFormatter secs = DateTimeFormatter.ofPattern("ss");
-
+		
 		return weather
 		[
 			(
-					(Integer.parseInt(LocalDateTime.now().format(secs)) * 100) / 60 +  
+					new Random().nextInt(4) + 
 					p_coordinates.getHeight() +  
 					p_coordinates.getLatitude() +  
 					p_coordinates.getLongitude()
